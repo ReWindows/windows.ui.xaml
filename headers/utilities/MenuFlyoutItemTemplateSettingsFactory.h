@@ -1,0 +1,16 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from windows.ui.xaml.dll by Windissect. 2 member(s).
+namespace DirectUI {
+class MenuFlyoutItemTemplateSettingsFactory {
+public:
+    // Category: Ctor | Source: PDB Internal
+    // Symbol: ??0MenuFlyoutItemTemplateSettingsFactory@DirectUI@@QEAA@XZ
+    MenuFlyoutItemTemplateSettingsFactory();
+protected:
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?GetTypeIndex@MenuFlyoutItemTemplateSettingsFactory@DirectUI@@MEBA?AW4KnownTypeIndex@@XZ
+    virtual int GetTypeIndex() const;
+};
+} // namespace DirectUI

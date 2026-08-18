@@ -1,0 +1,37 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from windows.ui.xaml.dll by Windissect. 9 member(s).
+namespace DirectUI {
+class AutomationAnnotation {
+public:
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?GetTypeIndex@AutomationAnnotation@DirectUI@@UEBA?AW4KnownTypeIndex@@XZ
+    virtual int GetTypeIndex() const;
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?get_Element@AutomationAnnotation@DirectUI@@UEAAJPEAPEAUIUIElement@Xaml@UI@Windows@@@Z
+    virtual long get_Element(::Windows::UI::Xaml::IUIElement * *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?get_Type@AutomationAnnotation@DirectUI@@UEAAJPEAW4AnnotationType@Automation@Xaml@UI@Windows@@@Z
+    virtual long get_Type(int *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?put_Element@AutomationAnnotation@DirectUI@@UEAAJPEAUIUIElement@Xaml@UI@Windows@@@Z
+    virtual long put_Element(::Windows::UI::Xaml::IUIElement *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?put_Type@AutomationAnnotation@DirectUI@@UEAAJW4AnnotationType@Automation@Xaml@UI@Windows@@@Z
+    virtual long put_Type(int);
+protected:
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?CopyIIDsToArray@AutomationAnnotation@DirectUI@@MEAAXHPEAU_GUID@@@Z
+    virtual void CopyIIDsToArray(int, _GUID *);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?GetImplementedIIDsCount@AutomationAnnotation@DirectUI@@MEAAHXZ
+    virtual int GetImplementedIIDsCount();
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?GetRuntimeClassNameImpl@AutomationAnnotation@DirectUI@@MEAAJPEAPEAUHSTRING__@@@Z
+    virtual long GetRuntimeClassNameImpl(HSTRING__* *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?QueryInterfaceImpl@AutomationAnnotation@DirectUI@@MEAAJAEBU_GUID@@PEAPEAX@Z
+    virtual long QueryInterfaceImpl(_GUID const &, void * *);
+};
+} // namespace DirectUI

@@ -1,0 +1,12 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from windows.ui.xaml.dll by Windissect. 1 member(s).
+namespace AccessKeys {
+class AKEvents {
+private:
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?EnsureEventSource@AKEvents@AccessKeys@@AEAAJXZ
+    long EnsureEventSource();
+};
+} // namespace AccessKeys
