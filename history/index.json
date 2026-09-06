@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "targets": [
+    {
+      "target": "windows.ui.xaml",
+      "file": "windows.ui.xaml.dll",
+      "index": "windows.ui.xaml/index.json",
+      "latest": "1951475743-B7398E0107885525880FA8C45B816A16-1",
+      "build_count": 1
+    }
+  ]
+}
